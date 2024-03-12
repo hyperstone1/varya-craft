@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Варя Крафт</title>
+    <link href="https://fonts.cdnfonts.com/css/savoye-let" rel="stylesheet" />
+  </head>
+
+  <body class="cart-body">
+    <include src="./components/header.html"></include>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <div class="hero__top">
+              <div class="hero__banner">
+                <div class="hero__banner-inner">
+                  <div class="text-5">Доставка обедов в офис</div>
+                  <div class="hero__banner-middle-text">ежедневно</div>
+                  <div class="hero__banner-bottom-text">
+                    Соберите индивидуальное меню
+                  </div>
+                </div>
+              </div>
+              <p class="hero__text">
+                Пожалуйста, оставьте заявку, и мы с удовольствием предложим вам
+                подходящий вариант меню.
+              </p>
+              <button class="btn btn__primary">Оставить заявку</button>
+            </div>
+            <div class="hero__bottom">
+              <div class="hero__info">
+                <ul class="hero__info-list">
+                  <li class="hero__info-item">--- Выпечка</li>
+                  <li class="hero__info-item">--- Сэндвичи</li>
+                  <li class="hero__info-item">--- Блины</li>
+                  <li class="hero__info-item">--- Первое блюдо</li>
+                  <li class="hero__info-item">--- Второе блюдо</li>
+                  <li class="hero__info-item">--- Десерты</li>
+                </ul>
+
+                <ul class="hero__info-list">
+                  <li class="hero__info-item">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 13.4299C13.7231 13.4299 15.12 12.0331 15.12 10.3099C15.12 8.58681 13.7231 7.18994 12 7.18994C10.2769 7.18994 8.88 8.58681 8.88 10.3099C8.88 12.0331 10.2769 13.4299 12 13.4299Z"
+                        stroke="#D68B4A"
+                        stroke-width="1.5"
+                      />
+                      <path
+                        d="M3.61971 8.49C5.58971 -0.169998 18.4197 -0.159997 20.3797 8.5C21.5297 13.58 18.3697 17.88 15.5997 20.54C13.5897 22.48 10.4097 22.48 8.38971 20.54C5.62971 17.88 2.46971 13.57 3.61971 8.49Z"
+                        stroke="#D68B4A"
+                        stroke-width="1.5"
+                      />
+                    </svg>
+                    По Москве
+                  </li>
+                  <li class="hero__info-item">
+                    <a href="">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14.4297 5.93018L20.4997 12.0002L14.4297 18.0702"
+                          stroke="#D68B4A"
+                          stroke-width="1.5"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M3.5 12H20.33"
+                          stroke="#D68B4A"
+                          stroke-width="1.5"
+                          stroke-miterlimit="10"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      В каталог
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="hero__bottom-img">
+                <img src="./assets/images/home/banner_img.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products cart">
+        <div class="container">
+          <div class="products__top">
+            <div class="products__text">
+              <h4 class="products__text-title">Популярные блюда</h4>
+              <div class="products__text-info">
+                50 + <br />
+                вариантов меню
+              </div>
+            </div>
+            <a href="" class="products__link btn btn__secondary"
+              >Смотреть все
+            </a>
+          </div>
+          <div class="products__list swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="products__list-item">
+                  <div class="products__list-img">
+                    <img src="./assets/images/card.png" alt="" />
+                  </div>
+                  <div class="products__list-format">
+                    <span class="products__list-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="products__list-bottom">
+                      <div class="products__list-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="products__list-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper__controls popular">
+              <button class="swiper__navigation-left">
+                <img src="./assets/images/arrow_left.svg" alt="" />
+              </button>
+              <div class="swiper__pagination">
+                <span class="swiper__pagination-cur">01</span>
+                <span class="swiper__pagination-last">05</span>
+              </div>
+              <button class="swiper__navigation-right">
+                <img src="./assets/images/arrow_right.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="format">
+        <div class="format__wrapper">
+          <div class="format__content">
+            <h3 class="format__content-title">Корпоративное питание</h3>
+            <span class="format__content-text">
+              Мы гарантируем вам вкусное и разнообразное меню, а также быструю
+              доставку прямо в ваш офис. Повышайте производительность и уровень
+              удовлетворенности вашей команды вместе с нами.
+            </span>
+            <a href="" class="format__content-link">
+              <img src="./assets/images/arrow_right.svg" alt="" />
+            </a>
+          </div>
+          <div class="format__content">
+            <h3 class="format__content-title">
+              Доставка <br />
+              бизнес-ланчей
+            </h3>
+            <span class="format__content-text">
+              Быстрое перекусывание в спешке или пропуск обеда - не самое лучшее
+              решение. Поэтому мы предлагаем комплексные обеды в офисе,
+              включающие разнообразные и питательные блюда. 
+            </span>
+            <a href="" class="format__content-link">
+              <img src="./assets/images/arrow_right.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <div class="gallery__wrapper">
+          <div class="container">
+            <div class="gallery__title title">Фотоотчеты</div>
+            <div class="swiper">
+              <div class="swiper__controls gallery">
+                <button class="swiper__navigation-left">
+                  <img src="./assets/images/arrow_left_blue.svg" alt="" />
+                </button>
+                <div class="swiper__pagination">
+                  <span class="swiper__pagination-cur">01</span>
+                  <span class="swiper__pagination-last">05</span>
+                </div>
+                <button class="swiper__navigation-right">
+                  <img src="./assets/images/arrow_right_blue.svg" alt="" />
+                </button>
+              </div>
+              <div class="swiper-wrapper">
+                <div class="gallery__slide swiper-slide">
+                  <a href="" class="gallery__item">
+                    <div class="gallery__item-container">
+                      <span class="gallery__item-chapter">Завтрак</span>
+                      <div class="gallery__item-img">
+                        <img src="./assets/images/home/photo_1.png" alt="" />
+                      </div>
+                      <h6 class="gallery__item-name">Свадьба Насти и Стаса</h6>
+                      <span class="gallery__item-date">22 июн. 2023</span>
+                      <button class="gallery__item-link">
+                        <img
+                          src="./assets/images/arrow_right_blue.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </a>
+                  <a href="" class="gallery__item">
+                    <div class="gallery__item-container">
+                      <span class="gallery__item-chapter">Завтрак</span>
+                      <div class="gallery__item-img">
+                        <img src="./assets/images/home/photo_1.png" alt="" />
+                      </div>
+                      <h6 class="gallery__item-name">Свадьба Насти и Стаса</h6>
+                      <span class="gallery__item-date">22 июн. 2023</span>
+                      <button class="gallery__item-link">
+                        <img
+                          src="./assets/images/arrow_right_blue.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </a>
+                  <a href="" class="gallery__item">
+                    <div class="gallery__item-container">
+                      <span class="gallery__item-chapter">Завтрак</span>
+                      <div class="gallery__item-img">
+                        <img src="./assets/images/home/photo_1.png" alt="" />
+                      </div>
+                      <h6 class="gallery__item-name">Свадьба Насти и Стаса</h6>
+                      <span class="gallery__item-date">22 июн. 2023</span>
+                      <button class="gallery__item-link">
+                        <img
+                          src="./assets/images/arrow_right_blue.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div class="gallery__slide swiper-slide">
+                  <a href="" class="gallery__item">
+                    <div class="gallery__item-container">
+                      <span class="gallery__item-chapter">Завтрак</span>
+                      <div class="gallery__item-img">
+                        <img src="./assets/images/home/photo_1.png" alt="" />
+                      </div>
+                      <h6 class="gallery__item-name">Свадьба Насти и Стаса</h6>
+                      <span class="gallery__item-date">22 июн. 2023</span>
+                      <button class="gallery__item-link">
+                        <img
+                          src="./assets/images/arrow_right_blue.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </a>
+                  <a href="" class="gallery__item">
+                    <div class="gallery__item-container">
+                      <span class="gallery__item-chapter">Завтрак</span>
+                      <div class="gallery__item-img">
+                        <img src="./assets/images/home/photo_1.png" alt="" />
+                      </div>
+                      <h6 class="gallery__item-name">Свадьба Насти и Стаса</h6>
+                      <span class="gallery__item-date">22 июн. 2023</span>
+                      <button class="gallery__item-link">
+                        <img
+                          src="./assets/images/arrow_right_blue.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </a>
+                  <a href="" class="gallery__item">
+                    <div class="gallery__item-container">
+                      <span class="gallery__item-chapter">Завтрак</span>
+                      <div class="gallery__item-img">
+                        <img src="./assets/images/home/photo_1.png" alt="" />
+                      </div>
+                      <h6 class="gallery__item-name">Свадьба Насти и Стаса</h6>
+                      <span class="gallery__item-date">22 июн. 2023</span>
+                      <button class="gallery__item-link">
+                        <img
+                          src="./assets/images/arrow_right_blue.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div class="gallery__slide swiper-slide">
+                  <a href="" class="gallery__item">
+                    <div class="gallery__item-container">
+                      <span class="gallery__item-chapter">Завтрак</span>
+                      <div class="gallery__item-img">
+                        <img src="./assets/images/home/photo_1.png" alt="" />
+                      </div>
+                      <h6 class="gallery__item-name">Свадьба Насти и Стаса</h6>
+                      <span class="gallery__item-date">22 июн. 2023</span>
+                      <button class="gallery__item-link">
+                        <img
+                          src="./assets/images/arrow_right_blue.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </a>
+                  <a href="" class="gallery__item">
+                    <div class="gallery__item-container">
+                      <span class="gallery__item-chapter">Завтрак</span>
+                      <div class="gallery__item-img">
+                        <img src="./assets/images/home/photo_1.png" alt="" />
+                      </div>
+                      <h6 class="gallery__item-name">Свадьба Насти и Стаса</h6>
+                      <span class="gallery__item-date">22 июн. 2023</span>
+                      <button class="gallery__item-link">
+                        <img
+                          src="./assets/images/arrow_right_blue.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </a>
+                  <a href="" class="gallery__item">
+                    <div class="gallery__item-container">
+                      <span class="gallery__item-chapter">Завтрак</span>
+                      <div class="gallery__item-img">
+                        <img src="./assets/images/home/photo_1.png" alt="" />
+                      </div>
+                      <h6 class="gallery__item-name">Свадьба Насти и Стаса</h6>
+                      <span class="gallery__item-date">22 июн. 2023</span>
+                      <button class="gallery__item-link">
+                        <img
+                          src="./assets/images/arrow_right_blue.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lanches">
+        <div class="container">
+          <div class="lanches__top">
+            <h3 class="title">Ланчи</h3>
+            <div class="swiper__controls lanches">
+              <button class="swiper__navigation-left">
+                <img src="./assets/images/arrow_left_blue.svg" alt="" />
+              </button>
+              <div class="swiper__pagination">
+                <span class="swiper__pagination-cur">01</span>
+                <span class="swiper__pagination-last">05</span>
+              </div>
+              <button class="swiper__navigation-right">
+                <img src="./assets/images/arrow_right_blue.svg" alt="" />
+              </button>
+            </div>
+            <button class="btn btn__primary">Оставить заявку</button>
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="lanches__slide swiper-slide">
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lanches__slide swiper-slide">
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lanches__slide swiper-slide">
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lanches__slide swiper-slide">
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lanches__item">
+                  <div class="lanches__item-img">
+                    <img src="./assets/images/lanch_1.png" alt="" />
+                  </div>
+                  <div class="lanches__item-format">
+                    <span class="lanches__item-title"
+                      >Ланч Киш Лорен ассорти</span
+                    >
+                    <div class="lanches__item-bottom">
+                      <div class="lanches__item-price">
+                        <img src="./assets/images/cart.svg" alt="" /> 600 ₽
+                      </div>
+                      <div class="lanches__item-short">50 гр / 600 Ккл</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__top">
+              <span class="about__top-subtitle">О нас</span>
+              <div class="about__top-title">Вкусно! Полезно!</div>
+            </div>
+            <div class="about__img">
+              <img src="./assets/images/about.png" alt="" />
+            </div>
+            <div class="about__text">
+              Мы <br />
+              обеспечиваем <br />
+              постоянный контроль <br />
+              качества продуктов и блюд, <br />
+              а также следим за соблюдением санитарных норм на всех этапах
+              производства и продажи. Мы тщательно выбираем поставщиков <br />
+              и всегда слушаем наших клиентов, <br />
+              учитывая их предпочтения <br />
+              и, конечно, вкусы.
+            </div>
+            <button class="btn btn__secondary">Оставить заявку</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <include src="./components/footer.html"></include>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+//путь до шрифтов идет из папки src
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 100;
+  src: url("../assets/fonts/MontserratAlternates-Thin.woff") format("woff"),
+    url("../assets/fonts/MontserratAlternates-Thin.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 200;
+  src: url("../assets/fonts/MontserratAlternates-ExtraLight.woff") format("woff"),
+    url("../assets/fonts/MontserratAlternates-ExtraLight.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 300;
+  src: url("../assets/fonts/MontserratAlternates-Light.woff") format("woff"),
+    url("../assets/fonts/MontserratAlternates-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 400;
+  src: url("../assets/fonts/MontserratAlternates-Regular.woff") format("woff"),
+    url("../assets/fonts/MontserratAlternates-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 500;
+  src: url("../assets/fonts/MontserratAlternates-Medium.woff") format("woff"),
+    url("../assets/fonts/MontserratAlternates-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 600;
+  src: url("../assets/fonts/MontserratAlternates-SemiBold.woff") format("woff"),
+    url("../assets/fonts/MontserratAlternates-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 700;
+  src: url("../assets/fonts/MontserratAlternates-Bold.woff") format("woff"),
+    url("../assets/fonts/MontserratAlternates-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 800;
+  src: url("../assets/fonts/MontserratAlternates-ExtraBold.woff") format("woff"),
+    url("../assets/fonts/MontserratAlternates-ExtraBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Alternates";
+  font-weight: 900;
+  src: url("../assets/fonts/MontserratAlternates-Black.woff") format("woff"),
+    url("../assets/fonts/MontserratAlternates-Black.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Rurintania";
+  font-weight: 400;
+  src: url("../assets/fonts/Rurintania.woff") format("woff"),
+    url("../assets/fonts/Rurintania.woff2") format("woff2"),
+    url("../assets/fonts/rurintania.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  font-weight: 400;
+  src: url("../assets/fonts/EuclidCircularA-Regular.woff") format("woff"),
+    url("../assets/fonts/EuclidCircularA-Regular.woff2") format("woff2"),
+    url("../assets/fonts/EuclidCircularA-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Savoye LET";
+  font-weight: 400;
+  src: url("../assets/fonts/savoyeletplain.ttf") format('truetype');
+}

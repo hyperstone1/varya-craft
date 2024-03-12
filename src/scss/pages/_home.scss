@@ -1,0 +1,559 @@
+.home-body {
+  background-image: url(../../assets/images/home/Group\ 53.svg);
+  background-size: cover;
+}
+
+.hero {
+  position: relative;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__text {
+    width: 46.2rem;
+    font-family: "Euclid Circular A";
+    margin-top: 4.1rem;
+    margin-bottom: 3.4rem;
+    font-weight: 300;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #0142d0;
+  }
+  &__banner {
+    position: relative;
+    margin: 13.1rem auto 0 auto;
+    padding: 1.2rem 1.4rem;
+    width: 89rem;
+    height: 23rem;
+    background-color: #fff;
+
+    &::before {
+      content: "";
+      background-image: url(../../assets/images/home/hero-flower.svg);
+      background-size: 100%;
+      display: block;
+      position: absolute;
+      bottom: -3rem;
+      left: -16rem;
+      width: 28.8rem;
+      height: 19.4rem;
+    }
+
+    &::after {
+      content: "";
+      background-image: url(../../assets/images/home/hero-flower.svg);
+      background-size: 100%;
+      display: block;
+      position: absolute;
+      transform: rotateY(180deg);
+      bottom: -3rem;
+      right: -16rem;
+      width: 28.8rem;
+      height: 19.4rem;
+    }
+
+    &-inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      border: 2px solid rgba(214, 139, 74, 1);
+      color: #0142d0;
+    }
+
+    &-middle-text {
+      color: rgba(214, 139, 74, 1);
+      font-size: 2.5rem;
+      font-weight: 300;
+    }
+
+    &-bottom-text {
+      font-family: "Savoye LET";
+      font-weight: 400;
+      font-size: 4rem;
+    }
+  }
+  &__bottom {
+    padding-top: 6.9rem;
+    align-self: start;
+    display: flex;
+    padding-bottom: 24.1rem;
+    &-img {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 102.4rem;
+      height: 72.6rem;
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  &__info {
+    display: flex;
+    gap: 16.5rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    // letter-spacing: -0.15rem;
+    color: #0142d0;
+    &-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.4rem;
+      &:nth-child(2) {
+        justify-content: space-between;
+        padding-left: 1.7rem;
+        border-left: 1px solid #0142d0;
+        .hero__info-item {
+          display: flex;
+          flex-direction: column;
+          gap: 1.2rem;
+          a {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.products {
+  &.cart {
+    margin-bottom: 12.1rem;
+    .products__list-title {
+      height: 8rem;
+      border: none;
+    }
+    .products__list-bottom {
+      padding-top: 0;
+    }
+  }
+  &__top {
+    margin-bottom: 6.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__text {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    &-title {
+      font-weight: 300;
+      font-size: 5rem;
+      color: #fff;
+    }
+    &-info {
+      font-weight: 400;
+      font-size: 1.8rem;
+      color: #fff;
+    }
+  }
+  &__list {
+    &.catalog {
+      display: flex;
+      gap: 3.9rem;
+      flex-wrap: wrap;
+    }
+    .swiper-slide {
+      display: flex;
+      gap: 3.9rem;
+    }
+    &-close {
+      position: absolute;
+      top: -1.4rem;
+      right: -1.4rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      img {
+        height: 100%;
+      }
+    }
+    &-control {
+      width: 23.5rem;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-rem,
+    &-add {
+      width: 5.8rem;
+      height: 5.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: url("./assets/images/border_control.svg");
+      background-size: 100% 100%;
+      font-family: "Euclid Circular A";
+      font-weight: 300;
+      font-size: 1.8rem;
+      text-align: center;
+      color: #0142d0;
+    }
+    &-item {
+      position: relative;
+      width: 35.9rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 5.3rem;
+      padding: 6.4rem 1.2rem 1.2rem 1.2rem;
+      background: url("./assets/images/card_bg.svg");
+      background-size: 100% 100%;
+    }
+    &-title {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      font-size: 1.8rem;
+      text-align: center;
+      color: #0142d0;
+      border-bottom: 1px solid #0142d0;
+    }
+    &-format {
+      position: relative;
+      padding: 1.9rem;
+      width: 100%;
+      height: 16.7rem;
+      display: flex;
+      flex-direction: column;
+      font-weight: 400;
+      font-size: 1.6rem;
+      color: #0142d0;
+      background: url("./assets/images/card_info-bg.svg");
+      background-size: 100% 100%;
+      &::before {
+        content: "";
+        position: absolute;
+        top: -3.6rem;
+        left: 50%;
+        width: 19rem;
+        height: 7.2rem;
+        background: url(./assets/images/card_info.png);
+        background-size: 100% 100%;
+        transform: translateX(-50%);
+        // width: ;
+      }
+    }
+    &-bottom {
+      padding-top: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-img {
+      width: 32.5rem;
+      height: 17.8rem;
+    }
+    &-price {
+      display: flex;
+      gap: 0.8rem;
+      align-items: center;
+      img {
+        width: 2.2rem;
+        height: 2.2rem;
+      }
+    }
+  }
+}
+
+.format {
+  &__wrapper {
+    margin-left: 8.3rem;
+    width: 165.3rem;
+    display: flex;
+  }
+  &__content {
+    position: relative;
+    width: 82.2rem;
+    height: 82.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15rem;
+    padding: 12.8rem 4.5rem 11.3rem 4.2rem;
+    background: url("./assets/images/format_bg.svg") 100% 100% no-repeat;
+    background-size: 100% 100%;
+    &-link {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+    &-title {
+      font-weight: 300;
+      font-size: 6rem;
+      text-align: center;
+      color: #fff;
+    }
+    &-text {
+      align-self: flex-end;
+      display: inline-block;
+      width: 22.5rem;
+      font-weight: 400;
+      font-size: 1.8rem;
+      color: #fff;
+    }
+  }
+}
+
+.gallery {
+  &.catalog {
+    margin-bottom: 15.4rem;
+    .container {
+      padding-bottom: 0;
+    }
+  }
+  &__wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("./assets/images/gallery_bg.png");
+    background-size: 100% 100%;
+    &.catalog,
+    &.port {
+      background: none;
+    }
+  }
+  &-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    img {
+      height: 100%;
+      mix-blend-mode: multiply;
+    }
+  }
+
+  .container {
+    padding-bottom: 18.1rem;
+  }
+  &__slide {
+    &.swiper-slide {
+      display: flex;
+      gap: 4.7rem;
+    }
+  }
+  &__list {
+    display: flex;
+    gap: 4.8rem;
+    flex-wrap: wrap;
+  }
+  &__title {
+    margin-bottom: 2.6rem;
+    text-align: center;
+  }
+  &__item {
+    position: relative;
+    width: 48.8rem;
+    min-height: 72.7rem;
+
+    mask-image: url("./assets/images/card_border.png");
+    // mask-border: url("./assets/images/mask_border.png") 30 fill / 20px 1px round;
+    mask-size: 100% 100%;
+    background-color: #fff;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0.9rem;
+      left: 0.9rem;
+      width: 47.1rem;
+      height: 70.8rem;
+      background: url("./assets/images/mask_border.png");
+      background-size: 100% 100%;
+      z-index: -1;
+    }
+    &-container {
+      height: 100%;
+      padding: 5.1rem 2.2rem 3.2rem 2.2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-chapter {
+      margin-bottom: 2.4rem;
+      font-family: "Savoye LET";
+      font-size: 2.5rem;
+      color: #d68b4a;
+      font-weight: 400;
+    }
+    &-img {
+      width: 42.5rem;
+      height: 43.5rem;
+      margin-bottom: 3.5rem;
+      mask-image: url("./assets/images/mask.png");
+      mask-size: 100% 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &-name {
+      margin-bottom: 2.4rem;
+      font-weight: 400;
+      font-size: 2.5rem;
+      text-align: center;
+      color: #0142d0;
+    }
+    &-date {
+      font-weight: 400;
+      font-size: 1.8rem;
+      text-align: center;
+      color: #0142d0;
+    }
+    &-link {
+      width: 2.4rem;
+      height: 2.4rem;
+      margin-top: auto;
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.lanches {
+  margin-bottom: 28rem;
+  &__top {
+    position: relative;
+    margin-bottom: 6.1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__slide {
+    &.swiper-slide {
+      display: flex;
+      gap: 4rem;
+    }
+  }
+  &__item {
+    position: relative;
+    width: 35.9rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3.1rem 1.2rem 1.2rem 1.2rem;
+    background: url("./assets/images/lanch_border.svg");
+    background-size: 100% 100%;
+    &-title {
+      padding-right: 10rem;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      font-weight: 500;
+      font-size: 1.8rem;
+      text-align: start;
+      color: #0142d0;
+      border-bottom: 1px solid #0142d0;
+    }
+    &-format {
+      position: relative;
+      padding: 1.9rem;
+      width: 100%;
+      height: 16.7rem;
+      display: flex;
+      flex-direction: column;
+      font-weight: 400;
+      font-size: 1.6rem;
+      color: #0142d0;
+      background-color: #fff;
+      background-size: 100% 100%;
+      border: 1px solid #0142d0;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 4.3rem;
+        right: 2rem;
+        width: 6.3rem;
+        height: 4.8rem;
+        background: url("./assets/images/lanch_after.png");
+        background-size: 100% 100%;
+        // width: ;
+      }
+    }
+    &-bottom {
+      padding-top: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-img {
+      width: 25.7rem;
+      height: 24.4rem;
+    }
+    &-price {
+      display: flex;
+      gap: 0.8rem;
+      align-items: center;
+      img {
+        width: 2.2rem;
+        height: 2.2rem;
+      }
+    }
+  }
+}
+
+.about {
+  margin-bottom: 28rem;
+  &__top {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    &-subtitle {
+      font-weight: 400;
+      font-size: 2.5rem;
+      text-align: center;
+      color: #fff;
+    }
+    &-title {
+      margin-bottom: 4.6rem;
+      font-weight: 300;
+      font-size: 6rem;
+      text-align: center;
+      color: #fff;
+    }
+  }
+  &__img {
+    width: 91.5rem;
+    height: 47.2rem;
+    img {
+      height: 100%;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__text {
+    margin-top: -6rem;
+    width: 68.6rem;
+    margin-bottom: 7.5rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+  }
+}

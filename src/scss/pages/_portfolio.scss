@@ -1,0 +1,67 @@
+.port-body {
+  background-image: url("./assets/images/portfolio/bg.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.banner_port {
+  padding-top: 14.7rem;
+  margin-bottom: 15.7rem;
+  &__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 136rem;
+    height: 130rem;
+    z-index: -1;
+    mix-blend-mode: multiply;
+    img {
+      height: 100%;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    gap: 29rem;
+  }
+  &__text {
+    width: 48.9rem;
+    display: flex;
+    flex-direction: column;
+    .btn {
+      width: fit-content;
+    }
+    &-title {
+      margin-bottom: 3.6rem;
+    }
+    &-desc {
+      margin-bottom: 6.5rem;
+      font-weight: 300;
+      font-size: 2.5rem;
+      color: #0142d0;
+    }
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    &-title {
+      margin-bottom: 2.9rem;
+      font-weight: 300;
+      font-size: 5rem;
+      color: #fff;
+    }
+    &-desc {
+      font-weight: 400;
+      font-size: 2.5rem;
+      color: #fff;
+    }
+    &-loc {
+      margin-top: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1.4rem;
+      font-weight: 400;
+      font-size: 1.8rem;
+      color: #fff;
+    }
+  }
+}

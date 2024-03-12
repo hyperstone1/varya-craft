@@ -1,0 +1,115 @@
+.btn {
+  position: relative;
+  padding: 1.6rem 12.2rem 1.6rem 2.9rem;
+  font-family: "Euclid Circular A";
+  background-size: 100% 100%;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #fff;
+  &.open_modal {
+    display: block;
+  }
+  &.link {
+    width: fit-content;
+    display: none;
+  }
+  &__primary {
+    background: url("./assets/images/btn_bg.svg");
+    background-size: 100% 100%;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 11.2rem;
+      height: 8.3rem;
+      background: url("./assets/images/btn_image.webp");
+      background-size: 100% 100%;
+    }
+  }
+  &__secondary {
+    color: #0142d0;
+    background: url("./assets/images/btn_sec-bg.svg");
+    background-size: 100% 100%;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 11.2rem;
+      height: 8.3rem;
+      background: url("./assets/images/btn_sec-img.webp");
+      background-size: 100% 100%;
+    }
+  }
+}
+.cart-body {
+  background-image: url("./assets/images/cart_bg.svg");
+  background-size: 100% 100%;
+}
+main {
+  min-height: 106rem;
+}
+.title {
+  font-weight: 300;
+  font-size: 5rem;
+  color: #0142d0;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #fff;
+}
+.swiper {
+  &__controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #fff;
+    &.popular {
+      margin-top: 6.6rem;
+    }
+    &.gallery {
+      margin-bottom: 3.1rem;
+      color: #0142d0;
+      .swiper__pagination::after {
+        background-color: #0142d0;
+      }
+    }
+    &.lanches {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #0142d0;
+      .swiper__pagination::after {
+        background-color: #0142d0;
+      }
+    }
+  }
+  &__navigation {
+    &-left,
+    &-right {
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+  }
+  &__pagination {
+    position: relative;
+    display: flex;
+    gap: 11.1rem;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      width: 8.7rem;
+      height: 1px;
+    }
+  }
+}

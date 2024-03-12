@@ -1,0 +1,39 @@
+.footer {
+  padding-bottom: 7.9rem;
+  color: #fff;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+
+    &-list {
+      display: flex;
+      align-items: center;
+      font-size: 1.8rem;
+
+      &--left {
+        gap: 3.9rem;
+      }
+
+      &--right {
+        gap: 5.9rem;
+      }
+      svg {
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+    }
+  }
+
+  &__phone {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+  }
+}
+
+.logo {
+  margin: 0 23.9rem 0 23.7rem;
+  font-size: 3rem;
+  font-family: "Rurintania";
+}
